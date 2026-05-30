@@ -42,10 +42,10 @@
         Lower {
             label = "Numpad";
             bindings = <
-  &trans            &trans         &kp UP_ARROW                 &trans           &kp PAGE_UP    &kp PAGE_DOWN  &kp NUMBER_1       &kp NUMBER_2           &kp NUMBER_3        &kp N0
-  &kp LEFT_CONTROL  &mt LALT LEFT  &mt LEFT_COMMAND DOWN_ARROW  &mt LSHFT RIGHT  &kp GLOBE      &kp LEFT       &mt DOWN NUMBER_4  &mt UP_ARROW NUMBER_5  &mt RIGHT NUMBER_6  &kp RIGHT_CONTROL
-  &trans            &trans         &trans                       &tog 4           &kp HOME       &kp END        &kp N7             &kp N8                 &kp N9              &trans
-                                   &trans                       &trans           &trans         &trans         &trans             &trans
+  &trans            &trans         &kp UP_ARROW                 &trans           &kp PAGE_UP    &kp PAGE_DOWN  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3        &kp N0
+  &kp LEFT_CONTROL  &mt LALT LEFT  &mt LEFT_COMMAND DOWN_ARROW  &mt LSHFT RIGHT  &kp GLOBE      &kp LEFT       &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6       &kp RIGHT_CONTROL
+  &trans            &trans         &trans                       &tog 4           &kp HOME       &kp END        &mt AMPERSAND N7          &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS N9  &trans
+                                   &trans                       &trans           &trans         &trans         &trans                    &trans
             >;
         };
 
